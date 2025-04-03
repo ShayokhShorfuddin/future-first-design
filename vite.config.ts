@@ -1,8 +1,7 @@
+import { TanStackRouterVite } from "@tanstack/router-plugin/vite"
 import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), TanStackRouterVite({ target: 'react', autoCodeSplitting: true })],
 })
-
-// TODO: connect with github repo
