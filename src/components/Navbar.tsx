@@ -1,10 +1,38 @@
 import { Link } from "@tanstack/react-router";
+import { useEffect, useRef, useState } from "react";
+import Close from "../assets/Close.svg";
 import FFD_Logo_Dark from "../assets/FFD-logo-dark.svg";
+import Menu from "../assets/Menu.svg";
+import { NavigationDropdown } from "./Dropdown";
 
 export default function Navbar() {
+	const [isMenuOpen, setIsMenuOpen] = useState(false);
+	const dropdownRef = useRef<HTMLDivElement>(null);
+	const closeMenuButtonRef = useRef<HTMLButtonElement>(null);
+
+	// Close dropdown when clicking outside
+	useEffect(() => {
+		function handleClickOutside(event: MouseEvent) {
+			if (
+				dropdownRef.current &&
+				closeMenuButtonRef.current &&
+				!dropdownRef.current.contains(event.target as Node) &&
+				!closeMenuButtonRef.current.contains(event.target as Node)
+			) {
+				setIsMenuOpen(false);
+			}
+		}
+
+		document.addEventListener("mousedown", handleClickOutside);
+
+		return () => {
+			document.removeEventListener("mousedown", handleClickOutside);
+		};
+	}, []);
+
 	return (
 		<header>
-			<nav className="flex justify-between items-center px-10 py-4">
+			<nav className="flex justify-between items-center px-5 xs:px-10 py-4">
 				{/* Logo */}
 				<img
 					src={FFD_Logo_Dark}
@@ -13,8 +41,33 @@ export default function Navbar() {
 					className="w-16"
 				/>
 
-				{/* Links */}
-				<div className="flex gap-x-6">
+				{isMenuOpen ? (
+					<button
+						type="button"
+						className="block xs:hidden hover:cursor-pointer"
+						aria-label="Close menu"
+						onClick={() => {
+							setIsMenuOpen(false);
+						}}
+						ref={closeMenuButtonRef}
+					>
+						<img src={Close} alt="Close menu icon" className="size-5" />
+					</button>
+				) : (
+					<button
+						type="button"
+						className="block xs:hidden hover:cursor-pointer"
+						aria-label="Open menu"
+						onClick={() => {
+							setIsMenuOpen(true);
+						}}
+					>
+						<img src={Menu} alt="Open menu icon" className="size-5" />
+					</button>
+				)}
+
+				{/* Wide screen navbar */}
+				<div className="hidden xs:flex gap-x-6">
 					<Link to="/">
 						<p className="hover:underline">Home</p>
 					</Link>
@@ -28,8 +81,18 @@ export default function Navbar() {
 					</Link>
 				</div>
 
+				{/* Mobile navigation dropdown */}
+				<div
+					className={`${isMenuOpen ? "block" : "hidden"} absolute top-12 right-0 mr-2 z-50`}
+					ref={dropdownRef}
+				>
+					<div className="animate-in fade-in duration-240">
+						<NavigationDropdown backgroundColor="white" />
+					</div>
+				</div>
+
 				{/* Social medias */}
-				<div className="flex gap-x-5">
+				<div className="hidden xs:flex gap-x-5">
 					<a
 						href="https://x.com/home"
 						target="_blank"
@@ -52,7 +115,7 @@ export default function Navbar() {
 }
 
 // Icons
-function XIcon() {
+export function XIcon() {
 	return (
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +129,7 @@ function XIcon() {
 	);
 }
 
-function GithubIcon() {
+export function GithubIcon() {
 	return (
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
