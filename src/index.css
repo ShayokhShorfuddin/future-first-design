@@ -18,9 +18,3 @@
 :root.dark {
 	background-color: #161618;
 }
-
-/* Smooth theme transition */
-:root,
-:root.dark {
-	transition: background-color 0.2s ease-in-out;
-}
