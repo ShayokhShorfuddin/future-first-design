@@ -142,8 +142,6 @@ export default function Navbar() {
 	);
 }
 
-// TODO: Fix flash of white background when refreshing the page
-
 // Icons
 export function XIcon() {
 	return (
