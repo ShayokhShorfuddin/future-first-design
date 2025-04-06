@@ -39,7 +39,7 @@ export default function Hero() {
 			className="m-h-svh container mx-auto mt-20"
 			aria-label="A small introduction to Future-First Design. This section also contains links to get started and tweeting about this philosophy."
 		>
-			<div className="flex flex-col items-center gap-y-7">
+			<div className="flex flex-col items-center gap-y-7 px-5">
 				<div className="relative flex flex-col items-center gap-y-4">
 					<h1 className="text-6xl text-center font-inter font-semibold dark:text-neutral-200">
 						Future-First Design
@@ -73,7 +73,7 @@ export default function Hero() {
 					</a>
 				</div>
 
-				<div className="flex justify-between items-stretch w-full mt-20 gap-x-5">
+				<div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 grid-rows-1 mt-20 gap-x-5 gap-y-5">
 					{HeroCardContents.map((card) => (
 						<HeroCard key={card.title} {...card} />
 					))}
