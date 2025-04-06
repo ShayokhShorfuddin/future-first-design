@@ -36,7 +36,7 @@ const HeroCardContents: {
 export default function Hero() {
 	return (
 		<section
-			className="m-h-svh container mx-auto mt-20"
+			className="m-h-svh container mx-auto mt-14 sm:mt-20"
 			aria-label="A small introduction to Future-First Design. This section also contains links to get started and tweeting about this philosophy."
 		>
 			<div className="flex flex-col items-center gap-y-7 px-5">
@@ -46,7 +46,7 @@ export default function Hero() {
 					</h1>
 
 					<p className="text-sm xs:text-base font-inter font-semibold text-center text-neutral-600 dark:text-neutral-500">
-						An architectural philosophy for robust,{" "}
+						An architectural philosophy for robust,
 						<br className="hidden xs:block sm:hidden" />
 						future-proof frontend applications.
 					</p>
