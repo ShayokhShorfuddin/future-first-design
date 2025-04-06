@@ -95,10 +95,6 @@ export default function Navbar() {
 					<Link to="/introduction">
 						<p className="hover:underline">Introduction</p>
 					</Link>
-
-					<Link to="/faq">
-						<p className="hover:underline">FAQ</p>
-					</Link>
 				</div>
 
 				{/* Mobile navigation dropdown */}

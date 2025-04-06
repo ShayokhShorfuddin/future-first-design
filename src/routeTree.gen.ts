@@ -12,7 +12,6 @@
 
 import { Route as rootRoute } from './routes/__root'
 import { Route as IntroductionImport } from './routes/introduction'
-import { Route as FaqImport } from './routes/faq'
 import { Route as IndexImport } from './routes/index'
 
 // Create/Update Routes
@@ -20,12 +19,6 @@ import { Route as IndexImport } from './routes/index'
 const IntroductionRoute = IntroductionImport.update({
   id: '/introduction',
   path: '/introduction',
-  getParentRoute: () => rootRoute,
-} as any)
-
-const FaqRoute = FaqImport.update({
-  id: '/faq',
-  path: '/faq',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -46,13 +39,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexImport
       parentRoute: typeof rootRoute
     }
-    '/faq': {
-      id: '/faq'
-      path: '/faq'
-      fullPath: '/faq'
-      preLoaderRoute: typeof FaqImport
-      parentRoute: typeof rootRoute
-    }
     '/introduction': {
       id: '/introduction'
       path: '/introduction'
@@ -67,41 +53,36 @@ declare module '@tanstack/react-router' {
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/faq': typeof FaqRoute
   '/introduction': typeof IntroductionRoute
 }
 
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/faq': typeof FaqRoute
   '/introduction': typeof IntroductionRoute
 }
 
 export interface FileRoutesById {
   __root__: typeof rootRoute
   '/': typeof IndexRoute
-  '/faq': typeof FaqRoute
   '/introduction': typeof IntroductionRoute
 }
 
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/faq' | '/introduction'
+  fullPaths: '/' | '/introduction'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/faq' | '/introduction'
-  id: '__root__' | '/' | '/faq' | '/introduction'
+  to: '/' | '/introduction'
+  id: '__root__' | '/' | '/introduction'
   fileRoutesById: FileRoutesById
 }
 
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  FaqRoute: typeof FaqRoute
   IntroductionRoute: typeof IntroductionRoute
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  FaqRoute: FaqRoute,
   IntroductionRoute: IntroductionRoute,
 }
 
@@ -116,15 +97,11 @@ export const routeTree = rootRoute
       "filePath": "__root.tsx",
       "children": [
         "/",
-        "/faq",
         "/introduction"
       ]
     },
     "/": {
       "filePath": "index.tsx"
-    },
-    "/faq": {
-      "filePath": "faq.tsx"
     },
     "/introduction": {
       "filePath": "introduction.tsx"
