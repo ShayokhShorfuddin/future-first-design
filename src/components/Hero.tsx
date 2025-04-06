@@ -41,29 +41,30 @@ export default function Hero() {
 		>
 			<div className="flex flex-col items-center gap-y-7 px-5">
 				<div className="relative flex flex-col items-center gap-y-4">
-					<h1 className="text-6xl text-center font-inter font-semibold dark:text-neutral-200">
+					<h1 className="text-4xl sm:text-5xl md:text-6xl text-center font-inter font-semibold dark:text-neutral-200">
 						Future-First Design
 					</h1>
 
-					<p className="font-inter font-semibold text-neutral-600 dark:text-neutral-500">
-						An architectural philosophy for robust, future-proof frontend
-						applications.
+					<p className="text-sm xs:text-base font-inter font-semibold text-center text-neutral-600 dark:text-neutral-500">
+						An architectural philosophy for robust,{" "}
+						<br className="hidden xs:block sm:hidden" />
+						future-proof frontend applications.
 					</p>
 
 					<TerminalIcon />
 					<RocketIcon />
 				</div>
 
-				<div className="flex items-center gap-x-5">
+				<div className="flex flex-wrap justify-center items-center gap-x-5 gap-y-3">
 					<Link
 						to="/introduction"
-						className="rounded-full bg-neutral-900 dark:bg-neutral-800 dark:hover:bg-neutral-700 transition-colors duration-250 hover:cursor-pointer py-2 px-4 text-sm font-inter font-semibold text-white"
+						className="rounded-full bg-neutral-900 dark:bg-neutral-800 dark:hover:bg-neutral-700 transition-colors duration-250 hover:cursor-pointer py-2 px-4 text-sm font-inter font-semibold text-white text-nowrap"
 					>
 						Get Started
 					</Link>
 
 					<a
-						className="rounded-full bg-neutral-900 dark:bg-neutral-800 dark:hover:bg-neutral-700 transition-colors duration-250 hover:cursor-pointer py-2 px-4 text-sm font-inter font-semibold text-white flex items-center gap-x-2"
+						className="rounded-full bg-neutral-900 dark:bg-neutral-800 dark:hover:bg-neutral-700 transition-colors duration-250 hover:cursor-pointer py-2 px-4 text-sm font-inter font-semibold text-white text-nowrap flex items-center gap-x-2"
 						target="_blank"
 						rel="noopener noreferrer"
 						href={`https://twitter.com/intent/tweet?text=${encodedText}`}
@@ -73,7 +74,7 @@ export default function Hero() {
 					</a>
 				</div>
 
-				<div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 grid-rows-1 mt-20 gap-x-5 gap-y-5">
+				<div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 grid-rows-1 mt-12 xs:mt-20 gap-x-5 gap-y-5">
 					{HeroCardContents.map((card) => (
 						<HeroCard key={card.title} {...card} />
 					))}
@@ -92,7 +93,7 @@ function TerminalIcon() {
 			strokeWidth="1.5"
 			stroke="currentColor"
 			aria-hidden="true"
-			className="absolute top-6 -left-10 -rotate-6 size-7 dark:stroke-neutral-300"
+			className="hidden md:block absolute top-6 -left-10 -rotate-6 size-7 dark:stroke-neutral-300"
 		>
 			<path
 				stroke-linecap="round"
@@ -112,7 +113,7 @@ function RocketIcon() {
 			strokeWidth="1.5"
 			stroke="currentColor"
 			aria-hidden="true"
-			className="absolute top-6 -right-10 size-7 dark:stroke-neutral-300"
+			className="hidden md:block absolute top-6 -right-10 size-7 dark:stroke-neutral-300"
 		>
 			<path
 				stroke-linecap="round"
