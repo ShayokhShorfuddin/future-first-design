@@ -4,13 +4,12 @@ export default function Introduction() {
 			className="container mx-auto mt-14 sm:mt-20"
 			aria-label="This section presents a deep-dive into the key points behind Future-First Design. Each point has been explained in detail along with some statistical data and real-world examples."
 		>
-			<div className="flex flex-col max-w-5xl mx-auto gap-y-24 px-5">
+			<div className="flex flex-col max-w-5xl mx-auto gap-y-20 sm:gap-y-24 px-5">
 				<div>
 					<h1 className="text-4xl dark:text-neutral-200 font-inter font-semibold mb-6">
 						Modern Frontend
 					</h1>
 
-					{/* TODO: Write the intro description */}
 					<p className="dark:text-neutral-400 font-inter">
 						The world of frontend development has never witnessed such
 						acceleration before. Every now and then, brand-new frameworks, sleek
@@ -43,7 +42,7 @@ export default function Introduction() {
 						potential and are future-ready.
 					</p>
 					<br /> <br />
-					<div className="ml-10">
+					<div className="ml-6 md:ml-10">
 						<h2 className="text-3xl dark:text-neutral-200 font-inter font-semibold mb-6">
 							1. Low Resource Compatibility
 						</h2>
