@@ -22,11 +22,6 @@ export function NavigationDropdown({
 					</Link>
 				</li>
 				<li>
-					<Link to="/faq">
-						<p className="text-sm text-nowrap">FAQ</p>
-					</Link>
-				</li>
-				<li>
 					<div className="flex items-center gap-x-3 mt-5">
 						<a
 							href="https://x.com/home"
