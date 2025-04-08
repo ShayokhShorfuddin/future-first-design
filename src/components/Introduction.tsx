@@ -99,7 +99,7 @@ export default function Introduction() {
 							</ul>
 						</div>
 
-						<div>
+						<div className="mb-20">
 							<h2 className="text-3xl dark:text-neutral-200 font-inter font-semibold mb-6">
 								2. Native Implementation
 							</h2>
@@ -142,6 +142,63 @@ export default function Introduction() {
 								</li>
 								<li className="dark:text-neutral-400 font-inter">
 									Audit component sizes regularly.
+								</li>
+							</ul>
+						</div>
+
+						<div>
+							<h2 className="text-3xl dark:text-neutral-200 font-inter font-semibold mb-6">
+								3. Web Accessibility
+							</h2>
+
+							<p className="dark:text-neutral-400 font-inter">
+								Everyone deserves to experience the web comfortably regardless
+								of their health condition or disability. According to the{" "}
+								<a
+									className="underline"
+									href="https://www.who.int/news-room/fact-sheets/detail/disability-and-health"
+								>
+									World Health Organization (WHO)
+								</a>
+								, an estimated 1.3 billion people - or 16% of the global
+								population experience a significant disability.
+								<br /> <br />
+								Unfortunately, web accessibility remains a gray area for many
+								developers. In the fast-moving world of campaigns, product
+								releases, and tight deadlines, developers find themselves with a
+								serious time deficit, pressure to deliver, and usually no
+								advocate for building in accessibility. By designing for
+								disabilities, everyone's issues start to get resolved,
+								accounting for requirements that might not have even been
+								considered before. Moreover, focusing on accessibility also
+								improves SEO and other key metrics.
+								<br /> <br />
+								United Nations Secretary-General António Guterres has called for
+								universal access to the Internet to be a basic human right by
+								2030. Laws like UK's Equality Act (2010) and 1990 Americans with
+								Disabilities Act (ADA). Failing to comply with these laws can
+								lead to hefty fines and legal action.
+								<br /> <br />
+								For instance, in January 2019, multi-platinum singer/songwriter
+								Beyoncé's official website was hit by a class action lawsuit for
+								violating 1990 Americans with Disabilities Act (ADA). A lawsuit
+								was filed against her company to ensure website accessibility
+								and to seek damages for individuals who had experienced unlawful
+								discrimination.
+							</p>
+
+							<ul className="list-disc list-inside mt-7">
+								<li className="dark:text-neutral-400 font-inter">
+									Ensure compliance with WCAG level AA and aim for level AAA.
+								</li>
+								<li className="dark:text-neutral-400 font-inter">
+									Implement keyboard-only natural navigation.
+								</li>
+								<li className="dark:text-neutral-400 font-inter">
+									Frequently examine accessibility scores.
+								</li>
+								<li className="dark:text-neutral-400 font-inter">
+									Build awareness within your team.
 								</li>
 							</ul>
 						</div>
