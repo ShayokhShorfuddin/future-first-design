@@ -61,13 +61,20 @@ export default function Introduction() {
 								resources and limited bandwidth.
 								<br /> <br />
 								For instance, imagine a web application that depends on{" "}
-								<a className="underline" href="https://momentjs.com/">
+								<a
+									className="underline"
+									href="https://momentjs.com/"
+									target="_blank"
+									rel="noreferrer noopener"
+								>
 									moment.js
 								</a>{" "}
 								for date formatting. According to{" "}
 								<a
 									className="underline"
 									href="https://bundlephobia.com/package/moment@2.30.1"
+									target="_blank"
+									rel="noreferrer noopener"
 								>
 									bundlephobia
 								</a>
@@ -76,7 +83,12 @@ export default function Introduction() {
 								browser on slow 3G network (50kB/s).
 								<br /> <br />
 								In this scenario, a better alternative would be to use{" "}
-								<a className="underline" href="https://day.js.org/">
+								<a
+									className="underline"
+									href="https://day.js.org/"
+									target="_blank"
+									rel="noreferrer noopener"
+								>
 									day.js
 								</a>
 								, a lightweight 3 kB (minified + gzipped) library and takes only
@@ -111,6 +123,8 @@ export default function Introduction() {
 								<a
 									className="underline"
 									href="https://bundlephobia.com/package/@radix-ui/react-slot@1.1.2"
+									target="_blank"
+									rel="noreferrer noopener"
 								>
 									button
 								</a>
@@ -157,6 +171,8 @@ export default function Introduction() {
 								<a
 									className="underline"
 									href="https://www.who.int/news-room/fact-sheets/detail/disability-and-health"
+									target="_blank"
+									rel="noreferrer noopener"
 								>
 									World Health Organization (WHO)
 								</a>
@@ -203,7 +219,7 @@ export default function Introduction() {
 							</ul>
 						</div>
 
-						<div>
+						<div className="mb-20">
 							<h2 className="text-3xl dark:text-neutral-200 font-inter font-semibold mb-6">
 								4. Mobile Friendly Approach
 							</h2>
@@ -216,6 +232,8 @@ export default function Introduction() {
 								<a
 									className="underline"
 									href="https://www.mobiloud.com/blog/what-percentage-of-internet-traffic-is-mobile"
+									target="_blank"
+									rel="noreferrer noopener"
 								>
 									Mobiloud
 								</a>{" "}
@@ -249,6 +267,64 @@ export default function Introduction() {
 								</li>
 								<li className="dark:text-neutral-400 font-inter">
 									Ensure all interactive elements respond to touch.
+								</li>
+							</ul>
+						</div>
+
+						<div>
+							<h2 className="text-3xl dark:text-neutral-200 font-inter font-semibold mb-6">
+								5. Low Carbon Emission
+							</h2>
+
+							<p className="dark:text-neutral-400 font-inter">
+								Amidst all the trends and race to build the next big thing, the
+								environmental impact of web applications is something unheard of
+								among many developers. More data needs more servers to store
+								them, more energy to deliver them, and more processing power to
+								display them on-screen to end users.
+								<br /> <br />
+								According to the 2024 Web Almanac, on the 90th percentile, the
+								average mobile site weighs around 7.2 MB, while desktop ones are
+								around 8 MB. What's concerning is that on this percentile, web
+								applications are contributing 1.36 grams of{" "}
+								<a
+									className="underline"
+									href="https://ec.europa.eu/eurostat/statistics-explained/index.php/Glossary:Carbon_dioxide_equivalent"
+									target="_blank"
+									rel="noreferrer noopener"
+								>
+									EqCO2
+								</a>
+								, and this number is rising rapidly every year.
+								<br /> <br />
+								Such acceleration is not surprising, considering the increasing
+								deployment of bloated and unoptimized codebases. In the end, our
+								environment takes the hit, which could have been avoided from
+								the very beginning.
+							</p>
+							<ul className="list-disc list-inside mt-7">
+								<li className="dark:text-neutral-400 font-inter">
+									Minimize or cache computationally heavy and resource-intensive
+									tasks whenever possible.
+								</li>
+								<li className="dark:text-neutral-400 font-inter">
+									Implement efficient design systems that require minimal CPU
+									usage.
+								</li>
+								<li className="dark:text-neutral-400 font-inter">
+									Deliver assets only when they are truly needed by the client.
+								</li>
+								<li className="dark:text-neutral-400 font-inter">
+									Deploy your applications on{" "}
+									<a
+										className="underline"
+										href="https://www.thegreenwebfoundation.org/tools/directory/"
+										target="_blank"
+										rel="noreferrer noopener"
+									>
+										green hosting providers
+									</a>
+									.
 								</li>
 							</ul>
 						</div>
