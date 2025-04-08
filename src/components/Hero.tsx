@@ -22,7 +22,7 @@ const HeroCardContents: {
 	},
 	{
 		icon: <CodeIcon />,
-		title: "Framework-Agnostic",
+		title: "Framework-agnostic",
 		subtitle: "Easy adaptation regardless of preferred framework or library.",
 	},
 	{
@@ -46,7 +46,7 @@ export default function Hero() {
 					</h1>
 
 					<p className="text-sm xs:text-base font-inter font-semibold text-center text-neutral-600 dark:text-neutral-500">
-						An architectural philosophy for robust,
+						An architectural philosophy for robust,{" "}
 						<br className="hidden xs:block sm:hidden" />
 						future-proof frontend applications.
 					</p>
