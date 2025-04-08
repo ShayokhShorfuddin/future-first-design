@@ -146,7 +146,7 @@ export default function Introduction() {
 							</ul>
 						</div>
 
-						<div>
+						<div className="mb-20">
 							<h2 className="text-3xl dark:text-neutral-200 font-inter font-semibold mb-6">
 								3. Web Accessibility
 							</h2>
@@ -199,6 +199,56 @@ export default function Introduction() {
 								</li>
 								<li className="dark:text-neutral-400 font-inter">
 									Build awareness within your team.
+								</li>
+							</ul>
+						</div>
+
+						<div>
+							<h2 className="text-3xl dark:text-neutral-200 font-inter font-semibold mb-6">
+								4. Mobile Friendly Approach
+							</h2>
+
+							<p className="dark:text-neutral-400 font-inter">
+								According to the 2024 Web Almanac by HTTP Archive, there are
+								6.61 billion mobile users worldwide, and 69.4% of the world's
+								total population uses a mobile device. Google search has
+								considered mobile-friendliness to be a requirement since 2015.{" "}
+								<a
+									className="underline"
+									href="https://www.mobiloud.com/blog/what-percentage-of-internet-traffic-is-mobile"
+								>
+									Mobiloud
+								</a>{" "}
+								insists that mobile devices makes up 62.45% of global internet
+								traffic.
+								<br /> <br />
+								Ensuring that your web applications adapts to all device screens
+								and orientations is a must. After analyzing the Chrome User
+								Experience Report (CrUX) public dataset, 2024 Web Almanac
+								revealed that only 48% of mobile sites passed the Core Web
+								Vitals (CWV) metrics.
+								<br /> <br />
+								Generally speaking, modern-day sites are built and tested on
+								wide screens like desktops and laptops. From the very beginning,
+								pixel-perfect appearance on large screens has remained as the
+								primary goal. Only afterwards, responsiveness is taken into
+								account and implemented.
+							</p>
+
+							<ul className="list-disc list-inside mt-7">
+								<li className="dark:text-neutral-400 font-inter">
+									Visualize your applications on both desktop and mobile
+									side-by-side during development.
+								</li>
+								<li className="dark:text-neutral-400 font-inter">
+									Analyze user experience on different emulated devices and
+									orientations.
+								</li>
+								<li className="dark:text-neutral-400 font-inter">
+									Run performance tests on physical low-end mobile devices.
+								</li>
+								<li className="dark:text-neutral-400 font-inter">
+									Ensure all interactive elements respond to touch.
 								</li>
 							</ul>
 						</div>
