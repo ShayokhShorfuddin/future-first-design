@@ -42,7 +42,7 @@ export default function Introduction() {
 						potential and are future-ready.
 					</p>
 					<br /> <br />
-					<div className="ml-6 md:ml-10">
+					<div className="md:ml-10">
 						<div className="mb-20">
 							<h2 className="text-3xl dark:text-neutral-200 font-inter font-semibold mb-6">
 								1. Low Resource Compatibility
