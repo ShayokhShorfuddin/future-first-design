@@ -43,7 +43,7 @@ export default function Introduction() {
 					</p>
 					<br /> <br />
 					<div className="ml-6 md:ml-10">
-						<div>
+						<div className="mb-20">
 							<h2 className="text-3xl dark:text-neutral-200 font-inter font-semibold mb-6">
 								1. Low Resource Compatibility
 							</h2>
@@ -99,7 +99,52 @@ export default function Introduction() {
 							</ul>
 						</div>
 
-						{/* TODO: Add next value */}
+						<div>
+							<h2 className="text-3xl dark:text-neutral-200 font-inter font-semibold mb-6">
+								2. Native Implementation
+							</h2>
+
+							<p className="dark:text-neutral-400 font-inter">
+								Due to the widespread availability and ease of integration,
+								developers often go for heavyweight UI Component libraries even
+								for a{" "}
+								<a
+									className="underline"
+									href="https://bundlephobia.com/package/@radix-ui/react-slot@1.1.2"
+								>
+									button
+								</a>
+								. While these libraries do provide a rich set of complex
+								components, they also introduce unintended bloat and overhead
+								for the end users.
+								<br /> <br />
+								Such overreliance has another side effect that usually goes
+								unseen. A slow decline in frontend developers' understanding of
+								the underlying principles and intricacies involved in designing
+								complex components.
+								<br /> <br />
+								Before resorting to a UI Component library for a specific
+								component, examine if it can be implemented natively using
+								HTML/JSX/TSX and CSS. Natively implemented components usually
+								result in lighter, maintainable code blocks whilst allowing
+								developers a deeper understanding of their systems.
+							</p>
+
+							<ul className="list-disc list-inside mt-7">
+								<li className="dark:text-neutral-400 font-inter">
+									Prioritize implementing small components natively.
+								</li>
+								<li className="dark:text-neutral-400 font-inter">
+									Make minimal use of UI Component libraries.
+								</li>
+								<li className="dark:text-neutral-400 font-inter">
+									Understand your project's design system.
+								</li>
+								<li className="dark:text-neutral-400 font-inter">
+									Audit component sizes regularly.
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
