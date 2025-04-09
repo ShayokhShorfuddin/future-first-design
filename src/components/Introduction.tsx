@@ -18,10 +18,10 @@ export default function Introduction() {
 						developer experience (DX).
 						<br /> <br />
 						While such advancements are great for the betterment of how
-						developers approach modern frontend architecture, they has also
+						developers approach modern frontend architecture, they have also
 						fostered a growing trend of frequent migrations and rewriting. Among
 						all this, the essence of web is often kept aside. Things like
-						Accessibility, Web Standards, and other aspects that make the web a
+						accessibility, web standards, and other aspects that make the web a
 						vibrant place.
 						<br /> <br />
 						Future-First Design aims to address this by offering a set of
@@ -76,7 +76,7 @@ export default function Introduction() {
 									target="_blank"
 									rel="noreferrer noopener"
 								>
-									bundlephobia
+									Bundlephobia
 								</a>
 								, it is 73.1 kB (minified + gzipped) in size and potentially
 								takes up to 1.46 seconds to be downloaded by the client's
@@ -197,10 +197,10 @@ export default function Introduction() {
 								<br /> <br />
 								For instance, in January 2019, multi-platinum singer/songwriter
 								Beyoncé's official website was hit by a class action lawsuit for
-								violating 1990 Americans with Disabilities Act (ADA). A lawsuit
-								was filed against her company to ensure website accessibility
-								and to seek damages for individuals who had experienced unlawful
-								discrimination.
+								violating the 1990 Americans with Disabilities Act (ADA). A
+								lawsuit was filed against her company to ensure website
+								accessibility and to seek damages for individuals who had
+								experienced unlawful discrimination.
 							</p>
 
 							<ul className="list-disc list-inside mt-7">
@@ -227,7 +227,7 @@ export default function Introduction() {
 							<p className="dark:text-neutral-400 font-inter">
 								According to the 2024 Web Almanac by HTTP Archive, there are
 								6.61 billion mobile users worldwide, and 69.4% of the world's
-								total population uses a mobile device. Google search has
+								total population uses a mobile device. Google Search has
 								considered mobile-friendliness to be a requirement since 2015.{" "}
 								<a
 									className="underline"
@@ -237,10 +237,10 @@ export default function Introduction() {
 								>
 									Mobiloud
 								</a>{" "}
-								insists that mobile devices makes up 62.45% of global internet
+								insists that mobile devices make up 62.45% of global internet
 								traffic.
 								<br /> <br />
-								Ensuring that your web applications adapts to all device screens
+								Ensuring that your web applications adapt to all device screens
 								and orientations is a must. After analyzing the Chrome User
 								Experience Report (CrUX) public dataset, 2024 Web Almanac
 								revealed that only 48% of mobile sites passed the Core Web
@@ -329,6 +329,9 @@ export default function Introduction() {
 							</ul>
 						</div>
 					</div>
+					{/* TODO: Should we add a section about the beauty of FFD? How the the values are interconnected and fulfill each other?*/}
+					{/* TODO: Add the additional guidelines after beauty */}
+					{/* TODO: Add conclusion */}
 				</div>
 			</div>
 		</section>
