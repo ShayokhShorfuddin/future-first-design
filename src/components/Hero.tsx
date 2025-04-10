@@ -45,7 +45,7 @@ export default function Hero() {
 						Future-First Design
 					</h1>
 
-					<p className="text-sm xs:text-base font-inter font-semibold text-center text-neutral-600 dark:text-neutral-500">
+					<p className="text-sm xs:text-base font-inter font-semibold text-center text-neutral-600 dark:text-neutral-400">
 						An architectural philosophy for robust,{" "}
 						<br className="hidden xs:block sm:hidden" />
 						future-proof frontend applications.
