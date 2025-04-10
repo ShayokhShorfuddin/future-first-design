@@ -329,9 +329,25 @@ export default function Introduction() {
 							</ul>
 						</div>
 					</div>
-					{/* TODO: Should we add a section about the beauty of FFD? How the the values are interconnected and fulfill each other?*/}
-					{/* TODO: Add the additional guidelines after beauty */}
-					{/* TODO: Add conclusion */}
+				</div>
+
+				<div>
+					<h1 className="text-4xl dark:text-neutral-200 font-inter font-semibold mb-6">
+						Symbiosis
+					</h1>
+
+					<p className="dark:text-neutral-400 font-inter">
+						The beauty of Future-First Design remains within its core values.
+						They are not standalone but rather interconnected, establishing a
+						reciprocal relationship where embracing one of the core values
+						naturally facilitates alignment with the others.
+						<br /> <br />
+						Prioritizing native implementation, for instance, not only leads to
+						a more efficient codebase but also contributes to low resource
+						compatibility. Shipping the efficient codebase to stay resilient on
+						underpowered mobile devices ensures a minimalistic carbon footprint
+						and a more inclusive user experience.
+					</p>
 				</div>
 			</div>
 		</section>
