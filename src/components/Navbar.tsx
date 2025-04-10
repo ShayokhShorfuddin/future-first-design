@@ -40,14 +40,14 @@ export default function Navbar() {
 						src={FFD_Logo_White}
 						alt="Future-First Design Logo"
 						fetchPriority="high"
-						className="w-16"
+						className="w-16 mr-8"
 					/>
 				) : (
 					<img
 						src={FFD_Logo_Dark}
 						alt="Future-First Design Logo"
 						fetchPriority="high"
-						className="w-16"
+						className="w-16 mr-8"
 					/>
 				)}
 
