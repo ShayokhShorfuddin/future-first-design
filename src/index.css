@@ -7,8 +7,10 @@
 }
 
 /* Inter font */
-@theme {
-	--font-inter: "Inter", sans-serif;
+@layer base {
+	html {
+		font-family: "Inter", system-ui, sans-serif;
+	}
 }
 
 /* CSS selector for dark mode */

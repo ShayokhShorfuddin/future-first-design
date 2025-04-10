@@ -41,11 +41,11 @@ export default function Hero() {
 		>
 			<div className="flex flex-col items-center gap-y-7 px-5">
 				<div className="relative flex flex-col items-center gap-y-4">
-					<h1 className="text-4xl sm:text-5xl md:text-6xl text-center font-inter font-semibold dark:text-neutral-200">
+					<h1 className="text-4xl sm:text-5xl md:text-6xl text-center font-semibold dark:text-neutral-200">
 						Future-First Design
 					</h1>
 
-					<p className="text-sm xs:text-base font-inter font-semibold text-center text-neutral-600 dark:text-neutral-400">
+					<p className="text-sm xs:text-base font-semibold text-center text-neutral-600 dark:text-neutral-400">
 						An architectural philosophy for robust,{" "}
 						<br className="hidden xs:block sm:hidden" />
 						future-proof frontend applications.
@@ -58,13 +58,13 @@ export default function Hero() {
 				<div className="flex flex-wrap justify-center items-center gap-x-5 gap-y-3">
 					<Link
 						to="/introduction"
-						className="rounded-full bg-neutral-900 dark:bg-neutral-800 dark:hover:bg-neutral-700 transition-colors duration-250 hover:cursor-pointer py-2 px-4 text-sm font-inter font-semibold text-white text-nowrap"
+						className="rounded-full bg-neutral-900 dark:bg-neutral-800 dark:hover:bg-neutral-700 transition-colors duration-250 hover:cursor-pointer py-2 px-4 text-sm font-semibold text-white text-nowrap"
 					>
 						Get Started
 					</Link>
 
 					<a
-						className="rounded-full bg-neutral-900 dark:bg-neutral-800 dark:hover:bg-neutral-700 transition-colors duration-250 hover:cursor-pointer py-2 px-4 text-sm font-inter font-semibold text-white text-nowrap flex items-center gap-x-2"
+						className="rounded-full bg-neutral-900 dark:bg-neutral-800 dark:hover:bg-neutral-700 transition-colors duration-250 hover:cursor-pointer py-2 px-4 text-sm font-semibold text-white text-nowrap flex items-center gap-x-2"
 						target="_blank"
 						rel="noopener noreferrer"
 						href={`https://twitter.com/intent/tweet?text=${encodedText}`}

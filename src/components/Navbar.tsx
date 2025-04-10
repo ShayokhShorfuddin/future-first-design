@@ -87,7 +87,7 @@ export default function Navbar() {
 				</div>
 
 				{/* Wide screen navbar */}
-				<div className="hidden xs:flex gap-x-6 dark:text-gray-100 font-inter font-medium text-sm">
+				<div className="hidden xs:flex gap-x-6 dark:text-gray-100 font-medium text-sm">
 					<Link to="/">
 						<p className="hover:underline">Home</p>
 					</Link>

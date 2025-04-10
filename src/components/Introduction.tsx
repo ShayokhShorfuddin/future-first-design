@@ -6,11 +6,11 @@ export default function Introduction() {
 		>
 			<div className="flex flex-col max-w-5xl mx-auto gap-y-20 sm:gap-y-24 px-5">
 				<div>
-					<h1 className="text-4xl dark:text-neutral-200 font-inter font-semibold mb-6">
+					<h1 className="text-4xl dark:text-neutral-200 font-semibold mb-6">
 						Modern Frontend
 					</h1>
 
-					<p className="dark:text-neutral-400 font-inter">
+					<p className="dark:text-neutral-400">
 						The world of frontend development has never witnessed such
 						acceleration before. Every now and then, brand-new frameworks, sleek
 						UI component libraries, and exciting technologies are emerging, with
@@ -32,10 +32,10 @@ export default function Introduction() {
 				</div>
 
 				<div>
-					<p className="text-4xl dark:text-neutral-200 font-inter font-semibold mb-6">
+					<p className="text-4xl dark:text-neutral-200 font-semibold mb-6">
 						Core Values
 					</p>
-					<p className="dark:text-neutral-400 font-inter">
+					<p className="dark:text-neutral-400">
 						For ease of understanding and implementation, Future-First Design
 						(FFD) philosophy consists of 5 core values. Adhering to these values
 						during development will ensure your applications reach their full
@@ -44,11 +44,11 @@ export default function Introduction() {
 					<br /> <br />
 					<div className="md:ml-10">
 						<div className="mb-20">
-							<h2 className="text-3xl dark:text-neutral-200 font-inter font-semibold mb-6">
+							<h2 className="text-3xl dark:text-neutral-200 font-semibold mb-6">
 								1. Low Resource Compatibility
 							</h2>
 
-							<p className="dark:text-neutral-400 font-inter">
+							<p className="dark:text-neutral-400">
 								Majority of current web applications tend to have heavy
 								dependencies and often require more resources to function than
 								necessary. Unoptimized assets, large libraries, verbose
@@ -96,27 +96,27 @@ export default function Introduction() {
 							</p>
 
 							<ul className="list-disc list-inside mt-7">
-								<li className="dark:text-neutral-400 font-inter">
+								<li className="dark:text-neutral-400">
 									Prune unnecessary dependencies and dead-code.
 								</li>
-								<li className="dark:text-neutral-400 font-inter">
+								<li className="dark:text-neutral-400">
 									Compress and optimize static assets.
 								</li>
-								<li className="dark:text-neutral-400 font-inter">
+								<li className="dark:text-neutral-400">
 									Ship as low JavaScript as possible.
 								</li>
-								<li className="dark:text-neutral-400 font-inter">
+								<li className="dark:text-neutral-400">
 									Make minimal network requests.
 								</li>
 							</ul>
 						</div>
 
 						<div className="mb-20">
-							<h2 className="text-3xl dark:text-neutral-200 font-inter font-semibold mb-6">
+							<h2 className="text-3xl dark:text-neutral-200 font-semibold mb-6">
 								2. Native Implementation
 							</h2>
 
-							<p className="dark:text-neutral-400 font-inter">
+							<p className="dark:text-neutral-400">
 								Due to the widespread availability and ease of integration,
 								developers often go for heavyweight UI Component libraries even
 								for a{" "}
@@ -145,27 +145,27 @@ export default function Introduction() {
 							</p>
 
 							<ul className="list-disc list-inside mt-7">
-								<li className="dark:text-neutral-400 font-inter">
+								<li className="dark:text-neutral-400">
 									Prioritize implementing small components natively.
 								</li>
-								<li className="dark:text-neutral-400 font-inter">
+								<li className="dark:text-neutral-400">
 									Make minimal use of UI Component libraries.
 								</li>
-								<li className="dark:text-neutral-400 font-inter">
+								<li className="dark:text-neutral-400">
 									Understand your project's design system.
 								</li>
-								<li className="dark:text-neutral-400 font-inter">
+								<li className="dark:text-neutral-400">
 									Audit component sizes regularly.
 								</li>
 							</ul>
 						</div>
 
 						<div className="mb-20">
-							<h2 className="text-3xl dark:text-neutral-200 font-inter font-semibold mb-6">
+							<h2 className="text-3xl dark:text-neutral-200 font-semibold mb-6">
 								3. Web Accessibility
 							</h2>
 
-							<p className="dark:text-neutral-400 font-inter">
+							<p className="dark:text-neutral-400">
 								Everyone deserves to experience the web comfortably regardless
 								of their health condition or disability. According to the{" "}
 								<a
@@ -204,27 +204,27 @@ export default function Introduction() {
 							</p>
 
 							<ul className="list-disc list-inside mt-7">
-								<li className="dark:text-neutral-400 font-inter">
+								<li className="dark:text-neutral-400">
 									Ensure compliance with WCAG level AA and aim for level AAA.
 								</li>
-								<li className="dark:text-neutral-400 font-inter">
+								<li className="dark:text-neutral-400">
 									Implement keyboard-only natural navigation.
 								</li>
-								<li className="dark:text-neutral-400 font-inter">
+								<li className="dark:text-neutral-400">
 									Frequently examine accessibility scores.
 								</li>
-								<li className="dark:text-neutral-400 font-inter">
+								<li className="dark:text-neutral-400">
 									Build awareness within your team.
 								</li>
 							</ul>
 						</div>
 
 						<div className="mb-20">
-							<h2 className="text-3xl dark:text-neutral-200 font-inter font-semibold mb-6">
+							<h2 className="text-3xl dark:text-neutral-200 font-semibold mb-6">
 								4. Mobile Friendly Approach
 							</h2>
 
-							<p className="dark:text-neutral-400 font-inter">
+							<p className="dark:text-neutral-400">
 								According to the 2024 Web Almanac by HTTP Archive, there are
 								6.61 billion mobile users worldwide, and 69.4% of the world's
 								total population uses a mobile device. Google Search has
@@ -254,29 +254,29 @@ export default function Introduction() {
 							</p>
 
 							<ul className="list-disc list-inside mt-7">
-								<li className="dark:text-neutral-400 font-inter">
+								<li className="dark:text-neutral-400">
 									Visualize your applications on both desktop and mobile
 									side-by-side during development.
 								</li>
-								<li className="dark:text-neutral-400 font-inter">
+								<li className="dark:text-neutral-400">
 									Analyze user experience on different emulated devices and
 									orientations.
 								</li>
-								<li className="dark:text-neutral-400 font-inter">
+								<li className="dark:text-neutral-400">
 									Run performance tests on physical low-end mobile devices.
 								</li>
-								<li className="dark:text-neutral-400 font-inter">
+								<li className="dark:text-neutral-400">
 									Ensure all interactive elements respond to touch.
 								</li>
 							</ul>
 						</div>
 
 						<div>
-							<h2 className="text-3xl dark:text-neutral-200 font-inter font-semibold mb-6">
+							<h2 className="text-3xl dark:text-neutral-200 font-semibold mb-6">
 								5. Low Carbon Emission
 							</h2>
 
-							<p className="dark:text-neutral-400 font-inter">
+							<p className="dark:text-neutral-400">
 								Amidst all the trends and race to build the next big thing, the
 								environmental impact of web applications is something unheard of
 								among many developers. More data needs more servers to store
@@ -303,18 +303,18 @@ export default function Introduction() {
 								the very beginning.
 							</p>
 							<ul className="list-disc list-inside mt-7">
-								<li className="dark:text-neutral-400 font-inter">
+								<li className="dark:text-neutral-400">
 									Minimize or cache computationally heavy and resource-intensive
 									tasks whenever possible.
 								</li>
-								<li className="dark:text-neutral-400 font-inter">
+								<li className="dark:text-neutral-400">
 									Implement efficient design systems that require minimal CPU
 									usage.
 								</li>
-								<li className="dark:text-neutral-400 font-inter">
+								<li className="dark:text-neutral-400">
 									Deliver assets only when they are truly needed by the client.
 								</li>
-								<li className="dark:text-neutral-400 font-inter">
+								<li className="dark:text-neutral-400">
 									Deploy your applications on{" "}
 									<a
 										className="underline"
@@ -332,11 +332,11 @@ export default function Introduction() {
 				</div>
 
 				<div>
-					<h1 className="text-4xl dark:text-neutral-200 font-inter font-semibold mb-6">
+					<h1 className="text-4xl dark:text-neutral-200 font-semibold mb-6">
 						Symbiosis
 					</h1>
 
-					<p className="dark:text-neutral-400 font-inter">
+					<p className="dark:text-neutral-400">
 						The beauty of Future-First Design remains within its core values.
 						They are not standalone but rather interconnected, establishing a
 						reciprocal relationship where embracing one of the core values
@@ -351,11 +351,11 @@ export default function Introduction() {
 				</div>
 
 				<div>
-					<h1 className="text-4xl dark:text-neutral-200 font-inter font-semibold mb-6">
+					<h1 className="text-4xl dark:text-neutral-200 font-semibold mb-6">
 						Conclusion
 					</h1>
 
-					<p className="dark:text-neutral-400 font-inter">
+					<p className="dark:text-neutral-400">
 						The web is an ever-evolving landscape. It's not just about keeping
 						pace with the latest frameworks or chasing trends—it's about
 						creating digital experiences that withstand the test of time and
