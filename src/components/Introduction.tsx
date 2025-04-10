@@ -349,6 +349,22 @@ export default function Introduction() {
 						and a more inclusive user experience.
 					</p>
 				</div>
+
+				<div>
+					<h1 className="text-4xl dark:text-neutral-200 font-inter font-semibold mb-6">
+						Conclusion
+					</h1>
+
+					<p className="dark:text-neutral-400 font-inter">
+						The web is an ever-evolving landscape. It's not just about keeping
+						pace with the latest frameworks or chasing trends—it's about
+						creating digital experiences that withstand the test of time and
+						honor the web's original promise: to connect humanity. So as you
+						return to your projects, carry these values with you. Together, we
+						can build a more inclusive and sustainable web for everyone, for the
+						future.
+					</p>
+				</div>
 			</div>
 		</section>
 	);
