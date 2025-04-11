@@ -118,7 +118,7 @@ export default function Navbar() {
 					</button>
 
 					<a
-						href="https://x.com/home"
+						href="https://x.com/shayokh_dev"
 						target="_blank"
 						rel="noopener noreferrer"
 					>

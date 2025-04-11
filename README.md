@@ -76,3 +76,11 @@ Are you developing a frontend application that upholds Future-First Design philo
   [![Future-First Design][ffd-red]](https://future-first-design.vercel.app)
   ```
 </details>
+
+## Contributing
+How can you contribute to the betterment of the Future-First Design? These are some ways you can help:
+
+- Apply **Future-First Design** in your projects and share your experience with your friends, team and community.
+- Suggest improvements to the documentation through pull requests.
+- Star ⭐️ the repository to show your support.
+- Post about **Future-First Design** on [Twitter](https://twitter.com/intent/tweet?text=%40shayokh_dev%0AFuture-First%20Design%20looks%20kinda%20cool.%0AMight%20give%20it%20a%20try.%0A%0A%23FutureFirstDesign) and other platforms.

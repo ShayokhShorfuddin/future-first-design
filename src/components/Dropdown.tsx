@@ -24,7 +24,7 @@ export function NavigationDropdown({
 				<li>
 					<div className="flex items-center gap-x-3 mt-5">
 						<a
-							href="https://x.com/home"
+							href="https://x.com/shayokh_dev"
 							target="_blank"
 							rel="noopener noreferrer"
 						>

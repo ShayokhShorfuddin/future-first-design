@@ -67,7 +67,7 @@ export default function Hero() {
 						className="rounded-full bg-neutral-900 dark:bg-neutral-800 dark:hover:bg-neutral-700 transition-colors duration-250 hover:cursor-pointer py-2 px-4 text-sm font-semibold text-white text-nowrap flex items-center gap-x-2"
 						target="_blank"
 						rel="noopener noreferrer"
-						href={`https://twitter.com/intent/tweet?text=${encodedText}`}
+						href={`https://x.com/intent/tweet?text=${encodedText}`}
 					>
 						<NonReactiveXIcon />
 						<span>Tweet About It!</span>
