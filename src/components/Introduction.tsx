@@ -357,7 +357,7 @@ export default function Introduction() {
 
 					<p className="dark:text-neutral-400">
 						The web is an ever-evolving landscape. It's not just about keeping
-						pace with the latest frameworks or chasing trends—it's about
+						pace with the latest frameworks or chasing trends, it's about
 						creating digital experiences that withstand the test of time and
 						honor the web's original promise: to connect humanity. So as you
 						return to your projects, carry these values with you. Together, we
