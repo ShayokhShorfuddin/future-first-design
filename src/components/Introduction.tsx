@@ -190,16 +190,14 @@ export default function Introduction() {
 								improves SEO and other key metrics.
 								<br /> <br />
 								United Nations Secretary-General António Guterres has called for
-								universal access to the Internet to be a basic human right by
-								2030. Laws like UK's Equality Act (2010) and 1990 Americans with
+								universal access to the internet to be a basic human right by
+								2030. There are laws like UK's Equality Act (2010) and 1990 Americans with
 								Disabilities Act (ADA). Failing to comply with these laws can
 								lead to hefty fines and legal action.
 								<br /> <br />
 								For instance, in January 2019, multi-platinum singer/songwriter
 								Beyoncé's official website was hit by a class action lawsuit for
-								violating the 1990 Americans with Disabilities Act (ADA). A
-								lawsuit was filed against her company to ensure website
-								accessibility and to seek damages for individuals who had
+								violating the 1990 Americans with Disabilities Act (ADA). The lawsuit sought to enforce website accessibility and seek damages for individuals who had
 								experienced unlawful discrimination.
 							</p>
 
