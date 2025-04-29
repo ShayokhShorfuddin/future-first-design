@@ -1,0 +1,13 @@
+# Future-First Design
+
+> An architectural philosophy for robust, future-proof frontend applications.
+
+Frontend development is accelerating rapidly. The ecosystem continues to grow as brand-new frameworks, sleek UI component libraries, and exciting technologies emerge. While such advancements are great for the betterment of how developers approach modern frontend architecture, they have also fostered a growing trend of frequent migrations and rewriting. Among all this, the essence of the web is often kept aside. Things like accessibility, web standards, and other aspects that make the web a vibrant place for everyone. Future-First Design aims to address this by offering a set of framework-agnostic guidelines and values, allowing developers to build and ship quality frontend applications for everyone regardless of industry shifts in the near future.
+
+## Introduction
+
+- [Introduction](https://future-first-design.vercel.app/introduction): Introduction to Future-First Design and its core values.
+
+## Optional
+
+- [GitHub Repository](https://github.com/ShayokhShorfuddin/future-first-design): Source code and development.
