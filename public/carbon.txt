@@ -1,9 +1,9 @@
 [org]
 disclosures = [
-	{ doc_type='web-page', url='https://www.websitecarbon.com/website/future-first-design-vercel-app/', domain='websitecarbon.com' }
+	{ doc_type = 'web-page', url = 'https://www.websitecarbon.com/website/future-first-design-netlify-app/', domain = 'websitecarbon.com' }
 ]
 
 [upstream]
 services = [
-	{ domain='vercel.com', service_type='hosting-provider' }
+	{ domain = 'netlify.com', service_type = 'hosting-provider' }
 ]
